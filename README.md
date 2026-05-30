@@ -1,4 +1,4 @@
-# Ollama Terminal
+# Chrome Ollama
 
 A terminal-style Chrome sidebar extension for chatting with local Ollama models. No cloud. No API key. No cost.
 
