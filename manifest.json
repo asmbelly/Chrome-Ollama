@@ -1,0 +1,17 @@
+{
+  "manifest_version": 3,
+  "name": "Ollama Terminal",
+  "version": "1.0.0",
+  "description": "Terminal-style sidebar to chat with local Ollama models.",
+  "permissions": ["sidePanel", "storage"],
+  "host_permissions": ["http://localhost:11434/*"],
+  "side_panel": {
+    "default_path": "sidebar.html"
+  },
+  "action": {
+    "default_title": "Open Ollama Terminal"
+  },
+  "background": {
+    "service_worker": "background.js"
+  }
+}
